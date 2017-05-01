@@ -20,6 +20,7 @@ Gwithplink <- function(genofile,genoformat,outname){
   Glist <- Glist[,c(2,1,3)]
   write.table(Glist,paste(outname,'.grm',sep=''),quote=F,row.names=F,col.names=F)
   cat('.. all done !!! ..\n')
+  unlink(c('*rel','*rel.id'))
 }
 
 exFHsibrel_GRM <- function(grm,pedigree,genolinkped,typefam,exclfamsize=1,outname){
