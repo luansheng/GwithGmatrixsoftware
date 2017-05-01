@@ -24,12 +24,12 @@ using a series of script, you could compute the genomic relationship matrix with
           out       ==> outputname 
 
 
-The makegmat.sh script performs some genotype and sample quality control using plink and these are the default paramters  
-             geno = 0.10
-             mind = 0.10
-             hwe  = 1e-25
-             maf  = 0.01
-Open the script and chnage default if needed
+The makegmat.sh script performs some genotype and sample quality control using plink and these are the default parameters    
+              geno = 0.10  
+              mind = 0.10  
+              hwe  = 1e-25  
+              maf  = 0.01  
+Open the script and change default if needed  
 
 
 
